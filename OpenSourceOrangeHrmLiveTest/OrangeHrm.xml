@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHrmTest">
+  <test name="Validate Home Page">
+    <classes>
+      <class name="com.OranegHrm.HomePage.LoginPage"/>
+    </classes>
+  </test>
+  <test name="Validate Admin TABe">
+    <classes>
+      <class name="com.orangeHrm.AdminTab.AdminMenu"/>
+    </classes>
+  </test>
+ <test name="Validate Empdetails">
+    <classes>
+      <class name="com.orangeHrm.EmpDetails.EmployeeDetails"/>
+    </classes>
+  </test> 
+  <test name="Validate GeneralInformation">
+    <classes>
+      <class name="com.orangeHrm.GenralInf.EditGeneralInformation"/>
+    </classes>
+  </test> 
+</suite>
